@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SoftTech</title>
+    <link rel="icon" href="../img/softTech.jpg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/css1.css">
+</head>
+
+<body>
+
+    <body>
+        <div class="flex-container">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                    <nav class="navbar bg-body-tertiary">
+                        <div class="container">
+                            <a class="navbar-brand" href="#">
+                                <img src="../img/softTech.jpg" width="50" height="50">
+                            </a>
+                        </div>
+                    </nav>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../pages/about.html">Acerca de Nosdotros</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../pages/Contactanos.html">Contactanos</a>
+                            </li>
+                            <li class="" nav-item>
+                                <a class="nav-link" href="../pages/funcionalidades.html">Funcionalidades del Sistema</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Compra de Licencias</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <section class="d-flex flex-column justify-content-center align-items-center pt-5  text-center w-50 m-auto"
+            id="introduccion">
+            <h1 class="p-3 fs-2 border-top border-3">Elije el tipo de licencia </h1>
+            <span class="text-primary fs-10">Que desees adquirir
+            </span>
+        </section>
+        <section class="w-100">
+            <div class="row w-75 mx-auto carousel slide" id="servicios-fila-1">
+
+                <div class="container py-5">
+                    <div class="row justify-content-center">
+                        <div class="col-md-8 col-lg-6 col-xl-4">
+                            <div class="card" style="border-radius: 15px;">
+                                <div class="bg-image hover-overlay ripple ripple-surface ripple-surface-light"
+                                    data-mdb-ripple-color="light">
+                                    <img src="https://www.grupoph.com/wp-content/uploads/2019/03/venta-de-software-en-el-salvador.jpg"
+                                        style="border-top-left-radius: 15px; border-top-right-radius: 15px;"
+                                        class="img-fluid" alt="Licencia de Software" />
+                                    <a href="#!">
+                                        <div class="mask"></div>
+                                    </a>
+                                </div>
+                                <div class="card-body pb-0">
+                                    <div class="mb-2">
+                                        <h5 class="card-title">Selecciona una licencia:</h5>
+                                        <select class="form-select" id="selectorLicencia">
+                                            <option value="ninguno">Selecciona una Opción</option>
+                                            <option value="sencilla" id="opcionSencilla">Licencia Sencilla</option>
+                                            <option value="premium" id="opcionPremium">Licencia premiun</option>
+
+                                        </select>
+                                        <p class="card-text mt-3">Descripción: <span id="descripcion">Debes seleccionar
+                                                un tipo de licencia
+                                                para observar la descripción
+                                            </span></p>
+                                    </div>
+                                </div>
+                                <hr class="my-0" />
+                                <div class="card-body pb-0 mb-3">
+                                    <div class="d-flex justify-content-between">
+                                        <p class="card-text">Subtotal: <span class="text-dark small text-muted"
+                                                id="precio">$</span></p>
+
+                                    </div>
+                                </div>
+                                <hr class="my-0" />
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between align-items-center pb-2 mb-1">
+                                        <a href="#!" class="text-dark fw-bold">Cancelar</a>
+                                        <button type="button" class="btn btn-primary" id="comprarBtn">Comprar
+                                            ahora</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+ <footer class="w-100  d-flex  align-items-center justify-content-center flex-wrap ">
+        <p class="fs-5 px-3  pt-3">SoftTech; @Todos Los Derechos Reservados 2023</p>
+        <div id="iconos">
+            <a href="#"><i class="bi bi-facebook"></i></a>
+            <a href="#"><i class="bi bi-twitter"></i></a>
+            <a href="https://instagram.com/sof_tech2023?igshid=MzRlODBiNWFlZA==v " target="_blank"><i
+                    class="bi bi-instagram"></i></a>
+        </div>
+    </footer>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.all.min.js"></script>
+        <script src="../js/javascrip2.js"></script>
+    </body>
+
+</html>
